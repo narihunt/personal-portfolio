@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    color: antiquewhite;
+    padding: 5px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(39, 34, 34);
+    
+}
+
+nav a {
+    color: aliceblue;
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+.main {
+    max-width: 1000px;
+    margin: auto;
+    
+}
+
+.main p {
+    font-size: 25px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+.row {
+    margin: 8px-16px;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content {
+    background-color: azure;
+    padding: 8px;
+    width: 200px;
+}
+
+#content {
+    background-color: black;
+    color: lavender;   
+    
+}
+
+#content,h3 {
+    text-align: center;
+    background-color: rgb(255, 254, 252);
+    color: black;
+    font-size: 20px
+}
+
+#contain {
+    margin-right: 220px;
+    width: 300px;
+    margin: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    
+}
+
+.main,h2 {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+#contain,form,h2 {
+    background-color: rgb(255, 172, 62);
+    color: black;
+    margin: 0%;
+    text-align: center;
+    align-items: center;
+}
+
+#label,input {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: large;
+}
+
+
+footer {
+    background-color: blanchedalmond;
+    color: rgb(10, 10, 10);
+    margin-left: 47%;
+}
